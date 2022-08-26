@@ -1,0 +1,293 @@
+{
+    "result": [
+        {
+            "auxWarningSpeed": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "enableAuxWarning": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "enableControlExternalRelay": false,
+            "externalDeviceShutDownDelay": 10,
+            "immobilizeArming": 20,
+            "immobilizeUnit": false,
+            "isAuxIgnTrigger": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "isAuxInverted": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "accelerationWarningThreshold": 24,
+            "accelerometerThresholdWarningFactor": 0,
+            "brakingWarningThreshold": -34,
+            "corneringWarningThreshold": 26,
+            "enableBeepOnDangerousDriving": false,
+            "enableBeepOnRpm": false,
+            "engineHourOffset": 0,
+            "isActiveTrackingEnabled": false,
+            "isDriverSeatbeltWarningOn": false,
+            "isPassengerSeatbeltWarningOn": false,
+            "isReverseDetectOn": false,
+            "isIoxConnectionEnabled": true,
+            "odometerFactor": 1,
+            "odometerOffset": 0,
+            "rpmValue": 4000,
+            "seatbeltWarningSpeed": 5,
+            "activeFrom": "2018-10-09T09:03:02.640Z",
+            "activeTo": "2050-01-01T00:00:00.000Z",
+            "autoGroups": [],
+            "customParameters": [
+                {
+                    "bytes": "oA8=",
+                    "description": "Accelerometer Accident Magnitude threshold 4g",
+                    "isEnabled": true,
+                    "offset": 76
+                },
+                {
+                    "bytes": "BA==",
+                    "description": "TwoWire Vehicle With IOX-CAN",
+                    "isEnabled": false,
+                    "offset": 180
+                },
+                {
+                    "bytes": "AA==",
+                    "description": "Enable Driver Violation Alarm Duration",
+                    "isEnabled": false,
+                    "offset": 182
+                }
+            ],
+            "disableBuzzer": false,
+            "enableBeepOnIdle": false,
+            "enableMustReprogram": false,
+            "enableSpeedWarning": false,
+            "engineType": "EngineTypeGenericId",
+            "engineVehicleIdentificationNumber": "VF1AHB11555161101",
+            "ensureHotStart": true,
+            "gpsOffDelay": 10,
+            "idleMinutes": 3,
+            "isSpeedIndicator": false,
+            "licensePlate": "JL-433-K",
+            "licenseState": "",
+            "major": 32,
+            "minAccidentSpeed": 4,
+            "minor": 48,
+            "parameterVersion": 25,
+            "pinDevice": true,
+            "speedingOff": 104,
+            "speedingOn": 105,
+            "vehicleIdentificationNumber": "VF1AHB11555161101",
+            "goTalkLanguage": "English",
+            "fuelTankCapacity": 0,
+            "disableSleeperBerth": false,
+            "autoHos": "ON",
+            "wifiHotspotLimits": [],
+            "parameterVersionOnDevice": 25,
+            "comment": "Renault Twingo",
+            "groups": [
+                {
+                    "id": "b28AE"
+                }
+            ],
+            "timeZoneId": "Europe/Amsterdam",
+            "deviceFlags": {
+                "activeFeatures": [
+                    "GeotabDriveHos"
+                ],
+                "isActiveTrackingAllowed": true,
+                "isEngineAllowed": true,
+                "isGarminAllowed": true,
+                "isHOSAllowed": true,
+                "isIridiumAllowed": true,
+                "isOdometerAllowed": true,
+                "isTripDetailAllowed": true,
+                "isUIAllowed": true,
+                "isVINAllowed": true,
+                "ratePlans": []
+            },
+            "deviceType": "GO7",
+            "id": "b8",
+            "ignoreDownloadsUntil": "1986-01-01T00:00:00.000Z",
+            "maxSecondsBetweenLogs": 200,
+            "name": "JL-433-K",
+            "productId": 111,
+            "serialNumber": "G73A20E0A35F",
+            "timeToDownload": "1.00:00:00",
+            "workTime": {
+                "id": "b3EA"
+            },
+            "devicePlans": [
+                "Pro"
+            ],
+            "devicePlanBillingInfo": [
+                {
+                    "billingLevel": 1,
+                    "devicePlanName": "Pro"
+                }
+            ],
+            "customFeatures": {
+                "AutoHos": true
+            },
+            "customProperties": []
+        },
+        {
+            "auxWarningSpeed": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "enableAuxWarning": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "enableControlExternalRelay": false,
+            "externalDeviceShutDownDelay": 0,
+            "immobilizeArming": 30,
+            "immobilizeUnit": false,
+            "isAuxIgnTrigger": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "isAuxInverted": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "accelerationWarningThreshold": 24,
+            "accelerometerThresholdWarningFactor": 0,
+            "brakingWarningThreshold": -34,
+            "corneringWarningThreshold": 26,
+            "enableBeepOnDangerousDriving": false,
+            "enableBeepOnRpm": false,
+            "engineHourOffset": 0,
+            "isActiveTrackingEnabled": false,
+            "isDriverSeatbeltWarningOn": false,
+            "isPassengerSeatbeltWarningOn": false,
+            "isReverseDetectOn": false,
+            "isIoxConnectionEnabled": true,
+            "odometerFactor": 1,
+            "odometerOffset": 0,
+            "rpmValue": 3500,
+            "seatbeltWarningSpeed": 10,
+            "activeFrom": "2021-06-16T11:07:08.701Z",
+            "activeTo": "2050-01-01T00:00:00.000Z",
+            "autoGroups": [],
+            "customParameters": [
+                {
+                    "bytes": "AA==",
+                    "description": "Enable Driver Violation Alarm Duration",
+                    "isEnabled": false,
+                    "offset": 182
+                }
+            ],
+            "disableBuzzer": false,
+            "enableBeepOnIdle": false,
+            "enableMustReprogram": false,
+            "enableSpeedWarning": false,
+            "engineType": "EngineTypeGenericId",
+            "engineVehicleIdentificationNumber": "YV1DZ8756C2332745",
+            "ensureHotStart": false,
+            "gpsOffDelay": 0,
+            "idleMinutes": 3,
+            "isSpeedIndicator": false,
+            "licensePlate": "KS476X",
+            "licenseState": "",
+            "major": 32,
+            "minAccidentSpeed": 4,
+            "minor": 47,
+            "parameterVersion": 3,
+            "pinDevice": true,
+            "speedingOff": 90,
+            "speedingOn": 100,
+            "vehicleIdentificationNumber": "YV1DZ8756C2332745",
+            "goTalkLanguage": "English",
+            "fuelTankCapacity": 0,
+            "disableSleeperBerth": false,
+            "autoHos": "AUTO",
+            "wifiHotspotLimits": [],
+            "parameterVersionOnDevice": 3,
+            "comment": "Volvo XC60",
+            "groups": [
+                {
+                    "id": "b28AF"
+                }
+            ],
+            "timeZoneId": "Europe/Amsterdam",
+            "deviceFlags": {
+                "activeFeatures": [],
+                "isActiveTrackingAllowed": true,
+                "isEngineAllowed": true,
+                "isGarminAllowed": true,
+                "isHOSAllowed": true,
+                "isIridiumAllowed": true,
+                "isOdometerAllowed": true,
+                "isTripDetailAllowed": true,
+                "isUIAllowed": true,
+                "isVINAllowed": true,
+                "ratePlans": []
+            },
+            "deviceType": "GO7",
+            "id": "b25",
+            "ignoreDownloadsUntil": "1986-01-01T00:00:00.000Z",
+            "maxSecondsBetweenLogs": 200,
+            "name": "KS-476-X",
+            "productId": 113,
+            "serialNumber": "G70020F0BA6A",
+            "timeToDownload": "1.00:00:00",
+            "workTime": "WorkTimeStandardHoursId",
+            "devicePlans": [
+                "Pro"
+            ],
+            "devicePlanBillingInfo": [
+                {
+                    "billingLevel": 1,
+                    "devicePlanName": "Pro"
+                }
+            ],
+            "customFeatures": {},
+            "customProperties": []
+        }
+    ],
+    "jsonrpc": "2.0"
+}

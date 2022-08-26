@@ -1,0 +1,2033 @@
+{
+    "result": [
+        {
+            "afterHoursDistance": 22.901733,
+            "afterHoursDrivingDuration": "00:19:36.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "09:17:10.0630000",
+            "averageSpeed": 70.05153,
+            "distance": 22.901733,
+            "drivingDuration": "00:19:36.9370000",
+            "engineHours": 3541707.3019998088,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-15T15:03:37.063Z",
+            "speedRange1": 5,
+            "speedRange1Duration": "00:04:16.9730000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-15T05:26:50.063Z",
+            "stop": "2022-08-15T05:46:27.000Z",
+            "stopDuration": "09:17:10.0630000",
+            "stopPoint": {
+                "x": 5.242496013641357,
+                "y": 52.094234466552734
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b193C73"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 29.077324,
+            "distance": 5.7584167,
+            "drivingDuration": "00:11:52.9370000",
+            "engineHours": 1296479.4739999906,
+            "idlingDuration": "00:00:14",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 103,
+            "nextTripStart": "2022-08-15T10:16:20.063Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:00:19.8000000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-15T10:02:42.063Z",
+            "stop": "2022-08-15T10:14:35.000Z",
+            "stopDuration": "00:01:45.0630000",
+            "stopPoint": {
+                "x": 5.1555328369140625,
+                "y": 52.279319763183594
+            },
+            "workDistance": 5.7584167,
+            "workDrivingDuration": "00:11:52.9370000",
+            "workStopDuration": "00:01:45.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b193A20"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:09:03.0629999",
+            "averageSpeed": 1.192859,
+            "distance": 0.0069374694,
+            "drivingDuration": "00:00:20.9370000",
+            "engineHours": 1296500.4109999905,
+            "idlingDuration": "00:00:15",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 1,
+            "nextTripStart": "2022-08-15T15:09:03.062Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-15T10:16:20.063Z",
+            "stop": "2022-08-15T10:16:41.000Z",
+            "stopDuration": "04:52:22.0629999",
+            "stopPoint": {
+                "x": 5.1555328369140625,
+                "y": 52.279319763183594
+            },
+            "workDistance": 0.0069374694,
+            "workDrivingDuration": "00:00:20.9370000",
+            "workStopDuration": "04:43:19",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b193CB1"
+        },
+        {
+            "afterHoursDistance": 6.025589,
+            "afterHoursDrivingDuration": "00:13:28.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "15:07:28",
+            "averageSpeed": 26.815586,
+            "distance": 6.025589,
+            "drivingDuration": "00:13:28.9370000",
+            "engineHours": 1297309.3479999905,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 92,
+            "nextTripStart": "2022-08-16T07:38:48.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-15T15:09:03.063Z",
+            "stop": "2022-08-15T15:22:32.000Z",
+            "stopDuration": "16:16:16.0630000",
+            "stopPoint": {
+                "x": 5.222476959228516,
+                "y": 52.26805877685547
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "01:08:48.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b193F30"
+        },
+        {
+            "afterHoursDistance": 21.9185,
+            "afterHoursDrivingDuration": "00:23:16.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "16:54:09.0630000",
+            "averageSpeed": 56.485443,
+            "distance": 21.9185,
+            "drivingDuration": "00:23:16.9370000",
+            "engineHours": 3543104.2389998087,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 112,
+            "nextTripStart": "2022-08-16T08:21:03.063Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:02:01.3250000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-15T15:03:37.063Z",
+            "stop": "2022-08-15T15:26:54.000Z",
+            "stopDuration": "16:54:09.0630000",
+            "stopPoint": {
+                "x": 5.123430252075195,
+                "y": 51.9875602722168
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b193F55"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00.0000001",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "01:15:18.0630000",
+            "averageSpeed": 48.705257,
+            "distance": 19.291842,
+            "drivingDuration": "00:23:45.9370000",
+            "engineHours": 1298735.2849999904,
+            "idlingDuration": "00:00:06",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 105,
+            "nextTripStart": "2022-08-16T16:15:18.063Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:04:23.1320000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T07:38:48.063Z",
+            "stop": "2022-08-16T08:02:34.000Z",
+            "stopDuration": "08:12:44.0630000",
+            "stopPoint": {
+                "x": 5.287219047546387,
+                "y": 52.34764862060547
+            },
+            "workDistance": 19.291842,
+            "workDrivingDuration": "00:23:45.9369999",
+            "workStopDuration": "06:57:26",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b193FDC"
+        },
+        {
+            "afterHoursDistance": 9.190549,
+            "afterHoursDrivingDuration": "00:11:19.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "02:08:48.0630000",
+            "averageSpeed": 48.660355,
+            "distance": 9.190549,
+            "drivingDuration": "00:11:19.9370000",
+            "engineHours": 3543784.1759998086,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 103,
+            "nextTripStart": "2022-08-16T10:41:11.063Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:00:37.6330000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T08:21:03.063Z",
+            "stop": "2022-08-16T08:32:23.000Z",
+            "stopDuration": "02:08:48.0630000",
+            "stopPoint": {
+                "x": 5.1444993019104,
+                "y": 52.03115463256836
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b193F68"
+        },
+        {
+            "afterHoursDistance": 3.3459299,
+            "afterHoursDrivingDuration": "00:06:39.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "01:33:43.0630000",
+            "averageSpeed": 30.118113,
+            "distance": 3.3459299,
+            "drivingDuration": "00:06:39.9370000",
+            "engineHours": 3544184.1129998085,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 61,
+            "nextTripStart": "2022-08-16T12:21:34.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T10:41:11.063Z",
+            "stop": "2022-08-16T10:47:51.000Z",
+            "stopDuration": "01:33:43.0630000",
+            "stopPoint": {
+                "x": 5.146470546722412,
+                "y": 52.02439498901367
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b193F7A"
+        },
+        {
+            "afterHoursDistance": 8.668328,
+            "afterHoursDrivingDuration": "00:11:33",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:34:20",
+            "averageSpeed": 45.030277,
+            "distance": 8.668328,
+            "drivingDuration": "00:11:33",
+            "engineHours": 3544877.1129998085,
+            "idlingDuration": "00:00:00",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 94,
+            "nextTripStart": "2022-08-16T13:07:27.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T12:21:34.063Z",
+            "stop": "2022-08-16T12:33:07.063Z",
+            "stopDuration": "00:34:20",
+            "stopPoint": {
+                "x": 5.123430252075195,
+                "y": 51.98758316040039
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b193F8F"
+        },
+        {
+            "afterHoursDistance": 2.9247844,
+            "afterHoursDrivingDuration": "00:07:09.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:30:57.0630000",
+            "averageSpeed": 24.490156,
+            "distance": 2.9247844,
+            "drivingDuration": "00:07:09.9370000",
+            "engineHours": 3545307.0499998084,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 50,
+            "nextTripStart": "2022-08-16T13:45:34.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T13:07:27.063Z",
+            "stop": "2022-08-16T13:14:37.000Z",
+            "stopDuration": "00:30:57.0630000",
+            "stopPoint": {
+                "x": 5.092428684234619,
+                "y": 51.994239807128906
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b193FA6"
+        },
+        {
+            "afterHoursDistance": 2.881561,
+            "afterHoursDrivingDuration": "00:07:40.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "15:12:05.0630000",
+            "averageSpeed": 22.505505,
+            "distance": 2.881561,
+            "drivingDuration": "00:07:40.9370000",
+            "engineHours": 3545767.9869998083,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 53,
+            "nextTripStart": "2022-08-17T05:05:20.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T13:45:34.063Z",
+            "stop": "2022-08-16T13:53:15.000Z",
+            "stopDuration": "15:12:05.0630000",
+            "stopPoint": {
+                "x": 5.1234049797058105,
+                "y": 51.98758316040039
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b19400D"
+        },
+        {
+            "afterHoursDistance": 18.712934,
+            "afterHoursDrivingDuration": "00:23:34.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "03:38:16.0630000",
+            "averageSpeed": 47.611,
+            "distance": 18.712934,
+            "drivingDuration": "00:23:34.9370000",
+            "engineHours": 1300150.2219999903,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 107,
+            "nextTripStart": "2022-08-16T20:17:09.063Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:01:47.7770000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T16:15:18.063Z",
+            "stop": "2022-08-16T16:38:53.000Z",
+            "stopDuration": "03:38:16.0630000",
+            "stopPoint": {
+                "x": 5.222579002380371,
+                "y": 52.26805877685547
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b193FFB"
+        },
+        {
+            "afterHoursDistance": 5.7982774,
+            "afterHoursDrivingDuration": "00:10:58.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "10:01:52",
+            "averageSpeed": 31.677988,
+            "distance": 5.7982774,
+            "drivingDuration": "00:10:58.9370000",
+            "engineHours": 1300809.1589999902,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 100,
+            "nextTripStart": "2022-08-17T14:40:57.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-16T20:17:09.063Z",
+            "stop": "2022-08-16T20:28:08.000Z",
+            "stopDuration": "18:12:49.0630000",
+            "stopPoint": {
+                "x": 5.155814170837402,
+                "y": 52.279319763183594
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "08:10:57.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194362"
+        },
+        {
+            "afterHoursDistance": 15.917398,
+            "afterHoursDrivingDuration": "00:14:13.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:02:48.0630000",
+            "averageSpeed": 67.10406,
+            "distance": 15.917398,
+            "drivingDuration": "00:14:13.9370000",
+            "engineHours": 3546621.9239998083,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 112,
+            "nextTripStart": "2022-08-17T05:22:22.063Z",
+            "speedRange1": 1,
+            "speedRange1Duration": "00:03:18.8000000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T05:05:20.063Z",
+            "stop": "2022-08-17T05:19:34.000Z",
+            "stopDuration": "00:02:48.0630000",
+            "stopPoint": {
+                "x": 5.082572937011719,
+                "y": 52.05299377441406
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b194028"
+        },
+        {
+            "afterHoursDistance": 20.345598,
+            "afterHoursDrivingDuration": "00:21:12.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "08:47:56.0630000",
+            "averageSpeed": 57.539497,
+            "distance": 20.345598,
+            "drivingDuration": "00:21:12.9370000",
+            "engineHours": 3547894.860999808,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 112,
+            "nextTripStart": "2022-08-17T14:31:31.063Z",
+            "speedRange1": 4,
+            "speedRange1Duration": "00:05:07.3330000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T05:22:22.063Z",
+            "stop": "2022-08-17T05:43:35.000Z",
+            "stopDuration": "08:47:56.0630000",
+            "stopPoint": {
+                "x": 5.242419242858887,
+                "y": 52.094207763671875
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b194349"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:23:51.0630000",
+            "averageSpeed": 10.107052,
+            "distance": 0.5811555,
+            "drivingDuration": "00:03:27",
+            "engineHours": 1301016.1589999902,
+            "idlingDuration": "00:00:00",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 0,
+            "nextTripStart": "2022-08-17T15:23:51.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T14:40:57.063Z",
+            "stop": "2022-08-17T14:44:24.063Z",
+            "stopDuration": "00:39:27",
+            "stopPoint": {
+                "x": 5.159167766571045,
+                "y": 52.27450942993164
+            },
+            "workDistance": 0.5811555,
+            "workDrivingDuration": "00:03:27",
+            "workStopDuration": "00:15:35.9370000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194397"
+        },
+        {
+            "afterHoursDistance": 19.19182,
+            "afterHoursDrivingDuration": "00:21:53.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:06:13.0630000",
+            "averageSpeed": 52.58285,
+            "distance": 19.19182,
+            "drivingDuration": "00:21:53.9370000",
+            "engineHours": 3549208.797999808,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 112,
+            "nextTripStart": "2022-08-17T14:59:38.063Z",
+            "speedRange1": 1,
+            "speedRange1Duration": "00:00:55.2320000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T14:31:31.063Z",
+            "stop": "2022-08-17T14:53:25.000Z",
+            "stopDuration": "00:06:13.0630000",
+            "stopPoint": {
+                "x": 5.082547187805176,
+                "y": 52.05299377441406
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b19437A"
+        },
+        {
+            "afterHoursDistance": 14.336789,
+            "afterHoursDrivingDuration": "00:20:16.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "1.14:09:45.0630000",
+            "averageSpeed": 42.411762,
+            "distance": 14.336789,
+            "drivingDuration": "00:20:16.9370000",
+            "engineHours": 3550425.734999808,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 98,
+            "nextTripStart": "2022-08-19T05:29:40.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T14:59:38.063Z",
+            "stop": "2022-08-17T15:19:55.000Z",
+            "stopDuration": "1.14:09:45.0630000",
+            "stopPoint": {
+                "x": 5.123430252075195,
+                "y": 51.9875602722168
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b1945B7"
+        },
+        {
+            "afterHoursDistance": 0.90326554,
+            "afterHoursDrivingDuration": "00:03:35.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:45:45.0630000",
+            "averageSpeed": 15.058818,
+            "distance": 0.90326554,
+            "drivingDuration": "00:03:35.9370000",
+            "engineHours": 1301232.0959999901,
+            "idlingDuration": "00:00:06",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 26,
+            "nextTripStart": "2022-08-17T16:13:12.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T15:23:51.063Z",
+            "stop": "2022-08-17T15:27:27.000Z",
+            "stopDuration": "00:45:45.0630000",
+            "stopPoint": {
+                "x": 5.155788898468018,
+                "y": 52.27934646606445
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1943E1"
+        },
+        {
+            "afterHoursDistance": 26.951624,
+            "afterHoursDrivingDuration": "00:23:41.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "04:25:06.0630000",
+            "averageSpeed": 68.234985,
+            "distance": 26.951624,
+            "drivingDuration": "00:23:41.9370000",
+            "engineHours": 1302654.03299999,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 114,
+            "nextTripStart": "2022-08-17T21:02:00.063Z",
+            "speedRange1": 4,
+            "speedRange1Duration": "00:07:08.3780000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T16:13:12.063Z",
+            "stop": "2022-08-17T16:36:54.000Z",
+            "stopDuration": "04:25:06.0630000",
+            "stopPoint": {
+                "x": 4.853427410125732,
+                "y": 52.30364227294922
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194455"
+        },
+        {
+            "afterHoursDistance": 27.5007,
+            "afterHoursDrivingDuration": "00:23:35.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "09:04:24",
+            "averageSpeed": 69.92014,
+            "distance": 27.5007,
+            "drivingDuration": "00:23:35.9370000",
+            "engineHours": 1304069.96999999,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 105,
+            "nextTripStart": "2022-08-18T06:47:04.063Z",
+            "speedRange1": 1,
+            "speedRange1Duration": "00:01:43.2000000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-17T21:02:00.063Z",
+            "stop": "2022-08-17T21:25:36.000Z",
+            "stopDuration": "09:21:28.0630000",
+            "stopPoint": {
+                "x": 5.155788898468018,
+                "y": 52.27937316894531
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:17:04.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194473"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 39.688118,
+            "distance": 6.966775,
+            "drivingDuration": "00:10:31.9370000",
+            "engineHours": 1304701.9069999899,
+            "idlingDuration": "00:00:05",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 105,
+            "nextTripStart": "2022-08-18T07:11:18.063Z",
+            "speedRange1": 1,
+            "speedRange1Duration": "00:00:10",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-18T06:47:04.063Z",
+            "stop": "2022-08-18T06:57:36.000Z",
+            "stopDuration": "00:13:42.0630000",
+            "stopPoint": {
+                "x": 5.213490962982178,
+                "y": 52.247013092041016
+            },
+            "workDistance": 6.966775,
+            "workDrivingDuration": "00:10:31.9370000",
+            "workStopDuration": "00:13:42.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194483"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 35.90444,
+            "distance": 7.619092,
+            "drivingDuration": "00:12:43.9370000",
+            "engineHours": 1305465.8439999898,
+            "idlingDuration": "00:00:05",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 96,
+            "nextTripStart": "2022-08-18T14:54:57.062Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-18T07:11:18.063Z",
+            "stop": "2022-08-18T07:24:02.000Z",
+            "stopDuration": "07:30:55.0629999",
+            "stopPoint": {
+                "x": 5.155712127685547,
+                "y": 52.279449462890625
+            },
+            "workDistance": 7.619092,
+            "workDrivingDuration": "00:12:43.9370000",
+            "workStopDuration": "07:30:55.0629999",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1945B5"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "15:30:00",
+            "averageSpeed": 0,
+            "distance": 0,
+            "drivingDuration": "00:00:02.9370000",
+            "engineHours": 1305468.7809999897,
+            "idlingDuration": "00:00:25",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 0,
+            "nextTripStart": "2022-08-19T07:40:02.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-18T14:54:57.063Z",
+            "stop": "2022-08-18T14:55:00.000Z",
+            "stopDuration": "16:45:02.0630000",
+            "stopPoint": {
+                "x": 5.155737400054932,
+                "y": 52.279449462890625
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:02.9370000",
+            "workStopDuration": "01:15:02.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1945D3"
+        },
+        {
+            "afterHoursDistance": 22.944567,
+            "afterHoursDrivingDuration": "00:19:42.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "09:20:45.0630000",
+            "averageSpeed": 69.82658,
+            "distance": 22.944567,
+            "drivingDuration": "00:19:42.9370000",
+            "engineHours": 3551608.671999808,
+            "idlingDuration": "00:00:06",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-19T15:10:08.063Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:08:47.0390000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-19T05:29:40.063Z",
+            "stop": "2022-08-19T05:49:23.000Z",
+            "stopDuration": "09:20:45.0630000",
+            "stopPoint": {
+                "x": 5.242060661315918,
+                "y": 52.094207763671875
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b19470C"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00.0000001",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 57.378696,
+            "distance": 21.70727,
+            "drivingDuration": "00:22:41.9370000",
+            "engineHours": 1306830.7179999896,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 105,
+            "nextTripStart": "2022-08-19T13:37:32.062Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:02:08.7320000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-19T07:40:02.063Z",
+            "stop": "2022-08-19T08:02:44.000Z",
+            "stopDuration": "05:34:48.0629999",
+            "stopPoint": {
+                "x": 5.282227039337158,
+                "y": 52.36421203613281
+            },
+            "workDistance": 21.70727,
+            "workDrivingDuration": "00:22:41.9369999",
+            "workStopDuration": "05:34:48.0629999",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b19466F"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 13.747098,
+            "distance": 0.43126556,
+            "drivingDuration": "00:01:52.9370000",
+            "engineHours": 1306943.6549999896,
+            "idlingDuration": "00:01:22",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 28,
+            "nextTripStart": "2022-08-19T13:41:52.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-19T13:37:32.063Z",
+            "stop": "2022-08-19T13:39:25.000Z",
+            "stopDuration": "00:02:27.0630000",
+            "stopPoint": {
+                "x": 5.285785675048828,
+                "y": 52.36628341674805
+            },
+            "workDistance": 0.43126556,
+            "workDrivingDuration": "00:01:52.9370000",
+            "workStopDuration": "00:02:27.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194672"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00.0000001",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "16:55:06.0630000",
+            "averageSpeed": 64.83642,
+            "distance": 23.430025,
+            "drivingDuration": "00:21:40.9370000",
+            "engineHours": 1308244.5919999895,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-20T07:55:06.063Z",
+            "speedRange1": 1,
+            "speedRange1Duration": "00:07:32.8570000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-19T13:41:52.063Z",
+            "stop": "2022-08-19T14:03:33.000Z",
+            "stopDuration": "17:51:33.0630000",
+            "stopPoint": {
+                "x": 5.155609607696533,
+                "y": 52.279296875
+            },
+            "workDistance": 23.430025,
+            "workDrivingDuration": "00:21:40.9369999",
+            "workStopDuration": "00:56:27",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b19476B"
+        },
+        {
+            "afterHoursDistance": 22.428362,
+            "afterHoursDrivingDuration": "00:22:57",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:03:06",
+            "averageSpeed": 58.636242,
+            "distance": 22.428362,
+            "drivingDuration": "00:22:57",
+            "engineHours": 3552985.671999808,
+            "idlingDuration": "00:00:00",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 112,
+            "nextTripStart": "2022-08-19T15:36:11.063Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:04:30.1230000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-19T15:10:08.063Z",
+            "stop": "2022-08-19T15:33:05.063Z",
+            "stopDuration": "00:03:06",
+            "stopPoint": {
+                "x": 5.092249393463135,
+                "y": 51.99477767944336
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b194737"
+        },
+        {
+            "afterHoursDistance": 2.816644,
+            "afterHoursDrivingDuration": "00:05:41.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "15:23:45.1270000",
+            "averageSpeed": 29.654346,
+            "distance": 2.816644,
+            "drivingDuration": "00:05:41.9370000",
+            "engineHours": 3553327.608999808,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 65,
+            "nextTripStart": "2022-08-20T07:05:38.127Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-19T15:36:11.063Z",
+            "stop": "2022-08-19T15:41:53.000Z",
+            "stopDuration": "15:23:45.1270000",
+            "stopPoint": {
+                "x": 5.1234049797058105,
+                "y": 51.9875602722168
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b19475E"
+        },
+        {
+            "afterHoursDistance": 0.00931116,
+            "afterHoursDrivingDuration": "00:00:19.8730000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "1.23:01:51.0630000",
+            "averageSpeed": 1.6867195,
+            "distance": 0.00931116,
+            "drivingDuration": "00:00:19.8730000",
+            "engineHours": 3553347.481999808,
+            "idlingDuration": "00:00:08",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 3,
+            "nextTripStart": "2022-08-22T06:07:49.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-20T07:05:38.127Z",
+            "stop": "2022-08-20T07:05:58.000Z",
+            "stopDuration": "1.23:01:51.0630000",
+            "stopPoint": {
+                "x": 5.12332820892334,
+                "y": 51.9875602722168
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b194F85"
+        },
+        {
+            "afterHoursDistance": 6.044136,
+            "afterHoursDrivingDuration": "00:11:22.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:14:03.1270000",
+            "averageSpeed": 31.860758,
+            "distance": 6.044136,
+            "drivingDuration": "00:11:22.9370000",
+            "engineHours": 1308927.5289999894,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 98,
+            "nextTripStart": "2022-08-20T08:20:32.127Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-20T07:55:06.063Z",
+            "stop": "2022-08-20T08:06:29.000Z",
+            "stopDuration": "00:14:03.1270000",
+            "stopPoint": {
+                "x": 5.2227582931518555,
+                "y": 52.26805877685547
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b19478C"
+        },
+        {
+            "afterHoursDistance": 47.98224,
+            "afterHoursDrivingDuration": "00:45:01.8730000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "03:11:59.0630000",
+            "averageSpeed": 63.93197,
+            "distance": 47.98224,
+            "drivingDuration": "00:45:01.8730000",
+            "engineHours": 1311629.4019999893,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 109,
+            "nextTripStart": "2022-08-20T12:17:33.063Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:06:03.3740000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-20T08:20:32.127Z",
+            "stop": "2022-08-20T09:05:34.000Z",
+            "stopDuration": "03:11:59.0630000",
+            "stopPoint": {
+                "x": 5.688447952270508,
+                "y": 52.236671447753906
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1947D1"
+        },
+        {
+            "afterHoursDistance": 38.571205,
+            "afterHoursDrivingDuration": "00:43:52.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "01:02:27.1270000",
+            "averageSpeed": 52.738194,
+            "distance": 38.571205,
+            "drivingDuration": "00:43:52.9370000",
+            "engineHours": 1314262.3389999892,
+            "idlingDuration": "00:00:09",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-20T14:03:53.127Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:03:30.2560000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-20T12:17:33.063Z",
+            "stop": "2022-08-20T13:01:26.000Z",
+            "stopDuration": "01:02:27.1270000",
+            "stopPoint": {
+                "x": 5.376844882965088,
+                "y": 52.25349044799805
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b19484F"
+        },
+        {
+            "afterHoursDistance": 22.144709,
+            "afterHoursDrivingDuration": "00:25:35.8730000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "18:16:09.0630000",
+            "averageSpeed": 51.905952,
+            "distance": 22.144709,
+            "drivingDuration": "00:25:35.8730000",
+            "engineHours": 1315798.211999989,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 107,
+            "nextTripStart": "2022-08-21T08:45:38.063Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:02:05.6670000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-20T14:03:53.127Z",
+            "stop": "2022-08-20T14:29:29.000Z",
+            "stopDuration": "18:16:09.0630000",
+            "stopPoint": {
+                "x": 5.155712127685547,
+                "y": 52.279422760009766
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b19493F"
+        },
+        {
+            "afterHoursDistance": 31.587715,
+            "afterHoursDrivingDuration": "00:30:29.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "06:22:21.0629999",
+            "averageSpeed": 62.141907,
+            "distance": 31.587715,
+            "drivingDuration": "00:30:29.9370000",
+            "engineHours": 1317628.148999989,
+            "idlingDuration": "00:00:05",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-21T15:38:29.062Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:04:47.7230000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-21T08:45:38.063Z",
+            "stop": "2022-08-21T09:16:08.000Z",
+            "stopDuration": "06:22:21.0629999",
+            "stopPoint": {
+                "x": 5.396018981933594,
+                "y": 52.26155471801758
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194A79"
+        },
+        {
+            "afterHoursDistance": 30.563007,
+            "afterHoursDrivingDuration": "00:26:42.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:01:18.0630000",
+            "averageSpeed": 68.64077,
+            "distance": 30.563007,
+            "drivingDuration": "00:26:42.9370000",
+            "engineHours": 1319231.085999989,
+            "idlingDuration": "00:00:09",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 112,
+            "nextTripStart": "2022-08-21T16:06:30.063Z",
+            "speedRange1": 4,
+            "speedRange1Duration": "00:02:48.4410000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-21T15:38:29.063Z",
+            "stop": "2022-08-21T16:05:12.000Z",
+            "stopDuration": "00:01:18.0630000",
+            "stopPoint": {
+                "x": 5.158707141876221,
+                "y": 52.27919387817383
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194AA0"
+        },
+        {
+            "afterHoursDistance": 0.33736232,
+            "afterHoursDrivingDuration": "00:01:27.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:05:46.0630000",
+            "averageSpeed": 13.811073,
+            "distance": 0.33736232,
+            "drivingDuration": "00:01:27.9370000",
+            "engineHours": 1319319.0229999889,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 35,
+            "nextTripStart": "2022-08-21T16:13:44.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-21T16:06:30.063Z",
+            "stop": "2022-08-21T16:07:58.000Z",
+            "stopDuration": "00:05:46.0630000",
+            "stopPoint": {
+                "x": 5.1555328369140625,
+                "y": 52.279449462890625
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194AA5"
+        },
+        {
+            "afterHoursDistance": 11.909051,
+            "afterHoursDrivingDuration": "00:19:32",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "02:09:45",
+            "averageSpeed": 36.580704,
+            "distance": 11.909051,
+            "drivingDuration": "00:19:32",
+            "engineHours": 1320491.0229999889,
+            "idlingDuration": "00:00:00",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 101,
+            "nextTripStart": "2022-08-21T18:43:01.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-21T16:13:44.063Z",
+            "stop": "2022-08-21T16:33:16.063Z",
+            "stopDuration": "02:09:45",
+            "stopPoint": {
+                "x": 5.1555585861206055,
+                "y": 52.279449462890625
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194C9F"
+        },
+        {
+            "afterHoursDistance": 0.029361514,
+            "afterHoursDrivingDuration": "00:00:40",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "11:04:28.0640000",
+            "averageSpeed": 2.6425364,
+            "distance": 0.029361514,
+            "drivingDuration": "00:00:40",
+            "engineHours": 1320531.0229999889,
+            "idlingDuration": "00:00:00",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 0,
+            "nextTripStart": "2022-08-22T05:48:09.127Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-21T18:43:01.063Z",
+            "stop": "2022-08-21T18:43:41.063Z",
+            "stopDuration": "11:04:28.0640000",
+            "stopPoint": {
+                "x": 5.155763149261475,
+                "y": 52.27924346923828
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b194F70"
+        },
+        {
+            "afterHoursDistance": 0.6852375,
+            "afterHoursDrivingDuration": "00:02:23.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:22:29.0630000",
+            "averageSpeed": 17.138435,
+            "distance": 0.6852375,
+            "drivingDuration": "00:02:23.9370000",
+            "engineHours": 3553491.418999808,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 29,
+            "nextTripStart": "2022-08-22T06:32:42.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T06:07:49.063Z",
+            "stop": "2022-08-22T06:10:13.000Z",
+            "stopDuration": "00:22:29.0630000",
+            "stopPoint": {
+                "x": 5.116185665130615,
+                "y": 51.98783874511719
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b19504D"
+        },
+        {
+            "afterHoursDistance": 22.312288,
+            "afterHoursDrivingDuration": "00:17:42.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "08:14:05.1270000",
+            "averageSpeed": 75.5682,
+            "distance": 22.312288,
+            "drivingDuration": "00:17:42.9370000",
+            "engineHours": 3554554.355999808,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 118,
+            "nextTripStart": "2022-08-22T15:04:30.127Z",
+            "speedRange1": 2,
+            "speedRange1Duration": "00:08:50.7859999",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T06:32:42.063Z",
+            "stop": "2022-08-22T06:50:25.000Z",
+            "stopDuration": "08:14:05.1270000",
+            "stopPoint": {
+                "x": 5.242239952087402,
+                "y": 52.09425735473633
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b195461"
+        },
+        {
+            "afterHoursDistance": 60.377792,
+            "afterHoursDrivingDuration": "00:41:50.8730000",
+            "afterHoursEnd": false,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 92.85026,
+            "distance": 131.63776,
+            "drivingDuration": "01:25:03.8730000",
+            "engineHours": 1325634.8959999888,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-22T07:29:34.063Z",
+            "speedRange1": 19,
+            "speedRange1Duration": "00:31:11.4380000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T05:48:09.127Z",
+            "stop": "2022-08-22T07:13:13.000Z",
+            "stopDuration": "00:16:21.0630000",
+            "stopPoint": {
+                "x": 5.593113422393799,
+                "y": 51.32265090942383
+            },
+            "workDistance": 71.259964,
+            "workDrivingDuration": "00:43:13",
+            "workStopDuration": "00:16:21.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1951EA"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 87.79244,
+            "distance": 68.720436,
+            "drivingDuration": "00:46:57.9370000",
+            "engineHours": 1328452.8329999887,
+            "idlingDuration": "00:04:57",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 111,
+            "nextTripStart": "2022-08-22T08:21:29.000Z",
+            "speedRange1": 14,
+            "speedRange1Duration": "00:15:30.5590000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T07:29:34.063Z",
+            "stop": "2022-08-22T08:16:32.000Z",
+            "stopDuration": "00:04:57",
+            "stopPoint": {
+                "x": 5.946163177490234,
+                "y": 50.90288543701172
+            },
+            "workDistance": 68.720436,
+            "workDrivingDuration": "00:46:57.9370000",
+            "workStopDuration": "00:04:57",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b195240"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 6.377243,
+            "distance": 0.17183127,
+            "drivingDuration": "00:01:37",
+            "engineHours": 1328549.8329999887,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 10,
+            "nextTripStart": "2022-08-22T08:31:06.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T08:21:29.000Z",
+            "stop": "2022-08-22T08:23:06.000Z",
+            "stopDuration": "00:08:00.0630000",
+            "stopPoint": {
+                "x": 5.946316719055176,
+                "y": 50.90260314941406
+            },
+            "workDistance": 0.17183127,
+            "workDrivingDuration": "00:01:37",
+            "workStopDuration": "00:08:00.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b195243"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 35.168396,
+            "distance": 6.3492336,
+            "drivingDuration": "00:10:49.9370000",
+            "engineHours": 1329199.7699999886,
+            "idlingDuration": "00:00:06",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 85,
+            "nextTripStart": "2022-08-22T11:06:45.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T08:31:06.063Z",
+            "stop": "2022-08-22T08:41:56.000Z",
+            "stopDuration": "02:24:49.0630000",
+            "stopPoint": {
+                "x": 5.973785400390625,
+                "y": 50.87024688720703
+            },
+            "workDistance": 6.3492336,
+            "workDrivingDuration": "00:10:49.9370000",
+            "workStopDuration": "02:24:49.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b195257"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 23.673033,
+            "distance": 3.0113215,
+            "drivingDuration": "00:07:37.9370000",
+            "engineHours": 1329657.7069999885,
+            "idlingDuration": "00:00:09",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 50,
+            "nextTripStart": "2022-08-22T11:47:20.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T11:06:45.063Z",
+            "stop": "2022-08-22T11:14:23.000Z",
+            "stopDuration": "00:32:57.0630000",
+            "stopPoint": {
+                "x": 5.981235027313232,
+                "y": 50.885169982910156
+            },
+            "workDistance": 3.0113215,
+            "workDrivingDuration": "00:07:37.9370000",
+            "workStopDuration": "00:32:57.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b195263"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 11.304255,
+            "distance": 1.2087294,
+            "drivingDuration": "00:06:24.9370000",
+            "engineHours": 1330042.6439999884,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 37,
+            "nextTripStart": "2022-08-22T13:37:41.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T11:47:20.063Z",
+            "stop": "2022-08-22T11:53:45.000Z",
+            "stopDuration": "01:43:56.0630000",
+            "stopPoint": {
+                "x": 5.990886211395264,
+                "y": 50.88560485839844
+            },
+            "workDistance": 1.2087294,
+            "workDrivingDuration": "00:06:24.9370000",
+            "workStopDuration": "01:43:56.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1953E9"
+        },
+        {
+            "afterHoursDistance": 0,
+            "afterHoursDrivingDuration": "00:00:00",
+            "afterHoursEnd": false,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:00:00",
+            "averageSpeed": 18.279493,
+            "distance": 0.7714809,
+            "drivingDuration": "00:02:31.9370000",
+            "engineHours": 1330194.5809999884,
+            "idlingDuration": "00:00:06",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 50,
+            "nextTripStart": "2022-08-22T13:58:26.063Z",
+            "speedRange1": 0,
+            "speedRange1Duration": "00:00:00",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T13:37:41.063Z",
+            "stop": "2022-08-22T13:40:13.000Z",
+            "stopDuration": "00:18:13.0630000",
+            "stopPoint": {
+                "x": 5.9861249923706055,
+                "y": 50.88614273071289
+            },
+            "workDistance": 0.7714809,
+            "workDrivingDuration": "00:02:31.9370000",
+            "workStopDuration": "00:18:13.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b195402"
+        },
+        {
+            "afterHoursDistance": 21.955872,
+            "afterHoursDrivingDuration": "00:29:31.8730000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "14:44:33.0630000",
+            "averageSpeed": 44.608807,
+            "distance": 21.955872,
+            "drivingDuration": "00:29:31.8730000",
+            "engineHours": 3556326.228999808,
+            "idlingDuration": "00:00:01",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 109,
+            "nextTripStart": "2022-08-23T06:18:35.063Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:01:46.4270000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T15:04:30.127Z",
+            "stop": "2022-08-22T15:34:02.000Z",
+            "stopDuration": "14:44:33.0630000",
+            "stopPoint": {
+                "x": 5.1234049797058105,
+                "y": 51.9875602722168
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b8"
+            },
+            "driver": {
+                "id": "b24",
+                "isDriver": true
+            },
+            "id": "b1955FB"
+        },
+        {
+            "afterHoursDistance": 81.16938,
+            "afterHoursDrivingDuration": "00:55:00",
+            "afterHoursEnd": true,
+            "afterHoursStart": false,
+            "afterHoursStopDuration": "00:01:02.0630000",
+            "averageSpeed": 92.699455,
+            "distance": 180.09282,
+            "drivingDuration": "01:56:33.9370000",
+            "engineHours": 1337188.5179999883,
+            "idlingDuration": "00:00:03",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 118,
+            "nextTripStart": "2022-08-22T15:56:02.063Z",
+            "speedRange1": 25,
+            "speedRange1Duration": "01:14:13.2430000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T13:58:26.063Z",
+            "stop": "2022-08-22T15:55:00.000Z",
+            "stopDuration": "00:01:02.0630000",
+            "stopPoint": {
+                "x": 5.106611251831055,
+                "y": 52.087833404541016
+            },
+            "workDistance": 98.92344,
+            "workDrivingDuration": "01:01:33.9370000",
+            "workStopDuration": "00:00:00",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b1954C1"
+        },
+        {
+            "afterHoursDistance": 33.54834,
+            "afterHoursDrivingDuration": "00:33:29.9370000",
+            "afterHoursEnd": true,
+            "afterHoursStart": true,
+            "afterHoursStopDuration": "14:00:28",
+            "averageSpeed": 60.088463,
+            "distance": 33.54834,
+            "drivingDuration": "00:33:29.9370000",
+            "engineHours": 1339198.4549999882,
+            "idlingDuration": "00:00:02",
+            "isSeatBeltOff": false,
+            "maximumSpeed": 107,
+            "nextTripStart": "2022-08-23T14:14:39.063Z",
+            "speedRange1": 3,
+            "speedRange1Duration": "00:02:15.1960000",
+            "speedRange2": 0,
+            "speedRange2Duration": "00:00:00",
+            "speedRange3": 0,
+            "speedRange3Duration": "00:00:00",
+            "start": "2022-08-22T15:56:02.063Z",
+            "stop": "2022-08-22T16:29:32.000Z",
+            "stopDuration": "21:45:07.0630000",
+            "stopPoint": {
+                "x": 5.155814170837402,
+                "y": 52.279319763183594
+            },
+            "workDistance": 0,
+            "workDrivingDuration": "00:00:00",
+            "workStopDuration": "07:44:39.0630000",
+            "device": {
+                "id": "b25"
+            },
+            "driver": {
+                "id": "b8D",
+                "isDriver": true
+            },
+            "id": "b196347"
+        }
+    ],
+    "jsonrpc": "2.0"
+}

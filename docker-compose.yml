@@ -1,0 +1,39 @@
+version: '3.6'
+
+services:
+  db:
+      image: mysql
+      command: --default-authentication-plugin=mysql_native_password
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: moove
+        MYSQL_USER: user
+        MYSQL_PASSWORD: user
+
+      ports:
+        - '3306:3306'
+      volumes:
+        - mysql-db:/var/lib/mysql
+        - ./init:/docker-entrypoint-initdb.d
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+#  vehicles-svc:
+#      container-name: vehicle
+#      image: vehicle-image:latest
+#      cpu: 1.5
+#      mem_limit: 2048m
+#      ports:
+#        - "9000:9000"
+
+
+
+volumes:
+   mysql-db:
+
+
+
