@@ -30,6 +30,15 @@ services:
 #      ports:
 #        - "9000:9000"
 
+#  front-end-svc:
+#    container-name: front-end
+#    image: frontend-img_v1:v1
+#    cpu: 1.5
+#    mem_limit: 2048
+#    ports:
+#      - "80:80"
+
+
 
 
 volumes:
