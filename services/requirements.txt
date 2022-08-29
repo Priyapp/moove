@@ -1,0 +1,11 @@
+Jinja2==3.0.3
+flask==1.1.2
+Flask-Cors
+gunicorn==19.9.0
+werkzeug==0.16.0
+PyJWT==1.7.1
+itsdangerous==2.0.1
+requests
+flask_restplus==0.13.0
+mysql-connector-python
+XlsxWriter

@@ -20,15 +20,41 @@ class Utils():
     utils
     """
 
-    def write_data(self, geo_data):
+    def write_data(self, geo_data, file_name):
         """
+        Geodata format
+
+         # geo_data = {
+            #     "result": [{
+            #             "count(T.id)": 259,
+            #             "distance": "2.816644",
+            #             "id": "b19475E",
+            #             "license_plate": "JL-433-K",
+            #             "rule_id": "apUro_0nXOUmLV4SVlzK8Xw",
+            #             "start": "2022-08-19 15:36:11",
+            #             "stop": "2022-08-19 15:41:53"
+            #         },
+            #         {
+            #             "count(T.id)": 259,
+            #             "distance": "22.428362",
+            #             "id": "b194737",
+            #             "license_plate": "JL-433-K",
+            #             "rule_id": "apUro_0nXOUmLV4SVlzK8Xw",
+            #             "start": "2022-08-19 15:10:08",
+            #             "stop": "2022-08-19 15:33:05"
+            #         }
+            #     ]
+            # }
+
 
         :return:
         """
-        print(geo_data)
+
         dict_res = {'status':'false', 'result':None}
+
         try:
-            workbook = xlsxwriter.Workbook('Geodata.xlsx')
+
+            workbook = xlsxwriter.Workbook(file_name)
             worksheet = workbook.add_worksheet()
 
             # Start from the first cell.
@@ -44,9 +70,10 @@ class Utils():
             for each_headr in header:
                 worksheet.write(row, col, each_headr)
                 col += 1
-            # iterating through content list
 
+            # geodata format should be dict
 
+            # geo_data=json.loads(geo_data)
             for each_item in geo_data['result']:
                 # write operation perform
 
@@ -72,7 +99,7 @@ class Utils():
         return dict_res
 
 
-    def send_mail_with_excel(recipient_email, subject, content, excel_file):
+    def send_mail_with_excel(self,recipient_email, subject, content, excel_file):
         """
         :param subject:
         :param content:

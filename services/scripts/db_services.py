@@ -39,7 +39,7 @@ class DbServices():
                 elif type == "trips":
                     sql = "INSERT IGNORE INTO trips (id,geotab_id,start, stop, distance, maxspeed,driver_id) VALUES (%s, %s, %s,%s, %s, %s,%s)"
                 elif type == "exceptions":
-                    sql = "INSERT IGNORE INTO driving_exceptions (id,rule_id,geotab_id,active_from, active_to, duration) VALUES (%s, %s, %s,%s, %s,%s)"
+                    sql = "INSERT IGNORE INTO driving_exceptions (id,rule_id,geotab_id_exptn,active_from, active_to, duration) VALUES (%s, %s, %s,%s, %s,%s)"
 
                 cursor_obj['cursor'].executemany(sql, data['req_list'])
                 cursor_obj['mydb'].commit()
@@ -87,7 +87,7 @@ class DbServices():
             cursor_obj = db_obj.get_conn()
 
             if not cursor_obj.get('error'):
-                sql = "SELECT V.license_plate,E.id,E.rule_id,T.start,T.stop,T.geotab_id FROM moove.driving_exceptions E INNER JOIN moove.trips T ON T.geotab_id=E.geotab_id INNER JOIN moove.vehicle V ON V.geotab_id=T.geotab_id where DATE(T.start) >= DATE(NOW()) - INTERVAL 30 DAY"
+                sql = "SELECT V.license_plate,E.id,E.rule_id,T.start,T.stop,T.geotab_id FROM moove.driving_exceptions E INNER JOIN moove.trips T ON T.geotab_id=E.geotab_id_exptn INNER JOIN moove.vehicle V ON V.geotab_id=T.geotab_id where DATE(T.start) >= DATE(NOW()) - INTERVAL 30 DAY"
 
                 cursor_obj['cursor'].execute(sql)
                 trip_res = cursor_obj['cursor'].fetchall()
@@ -120,7 +120,7 @@ class DbServices():
             if not cursor_obj.get('error'):
                 for each_rule in rule_list:
                     print(each_rule)
-                    sql = "SELECT V.license_plate,T.id, T.start, T.stop,T.distance, E.rule_id, count(T.id) from moove.trips T INNER JOIN moove.vehicle V ON V.geotab_id= T.geotab_id INNER JOIN moove.driving_exceptions E on T.geotab_id=E.geotab_id where E.rule_id= '"+each_rule+"' and T.start BETWEEN '"+start_date+"' AND '"+end_date+ "' group by T.id"
+                    sql = "SELECT V.license_plate,T.id, T.start, T.stop,T.distance, E.rule_id, count(T.id) from moove.trips T INNER JOIN moove.vehicle V ON V.geotab_id= T.geotab_id INNER JOIN moove.driving_exceptions E on T.geotab_id=E.geotab_id_exptn where E.rule_id= '"+each_rule+"' and T.start BETWEEN '"+start_date+"' AND '"+end_date+ "' group by T.id"
 
                     print(sql)
                     cursor_obj['cursor'].execute(sql)

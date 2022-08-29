@@ -26,6 +26,10 @@ class GeoService():
     """
     url = "https://my.geotab.com/apiv1"
 
+    current_time = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    fromDate = (datetime.datetime.now() - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%S.000Z")  # 30 days back
+
+
     def get_vehicle(self):
 
         """
@@ -96,10 +100,8 @@ class GeoService():
                     }
                 }
             }
-        current_time = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.000Z")
-        payload['params']['search']['toDate']= current_time
-        fromDate = (datetime.datetime.now() - timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%S.000Z") # 30 days back
-        payload['params']['search']['fromDate'] = fromDate
+        payload['params']['search']['toDate']= GeoService.current_time
+        payload['params']['search']['fromDate'] = GeoService.fromDate
 
         try:
 
@@ -158,6 +160,10 @@ class GeoService():
                 }
             }
         }
+        payload['params']['search']['toDate'] = GeoService.current_time
+        payload['params']['search']['fromDate'] = GeoService.fromDate
+
+        print(payload)
 
         try:
 
@@ -200,12 +206,6 @@ class GeoService():
         dict_res= {"result":None, "status":"false"}
 
         try:
-            # mydb = mysql.connector.connect(
-            # host = "localhost",
-            # user = "user",
-            # password = "user",
-            # database = "moove"
-            # )
 
             db_obj = Db.DbConnect()
             cursor_obj = db_obj.get_conn()
@@ -216,7 +216,7 @@ class GeoService():
                 elif type == "services":
                     sql = "INSERT IGNORE INTO trips (id,geotab_id,start, stop, distance, maxspeed,driver_id) VALUES (%s, %s, %s,%s, %s, %s,%s)"
                 elif type == "exceptions":
-                    sql = "INSERT IGNORE INTO driving_exceptions (id,rule_id,geotab_id,active_from, active_to, duration) VALUES (%s, %s, %s,%s, %s,%s)"
+                    sql = "INSERT IGNORE INTO driving_exceptions (id,rule_id,geotab_id_exptn,active_from, active_to, duration) VALUES (%s, %s, %s,%s, %s,%s)"
 
                 cursor_obj['cursor'].executemany(sql, data['req_list'])
                 cursor_obj['mydb'].commit()
@@ -228,15 +228,6 @@ class GeoService():
             dict_res['error'] = str(err)
 
         return dict_res
-
-#
-# m_serv = GeoService()
-# res=m_serv.get_vehicle()
-# print(m_serv.insert_data_todb(res,"vehicle"))
-# res_trip=m_serv.get_trips()
-# print(m_serv.insert_data_todb(res_trip,"services"))
-# res_trip=m_serv.get_driving_exception()
-# print(m_serv.insert_data_todb(res_trip,"exceptions"))
 
 
 

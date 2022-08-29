@@ -1,47 +1,44 @@
 CREATE TABLE `moove`.`vehicle` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+  `geotab_id` VARCHAR(45) NOT NULL,
   `name` VARCHAR(45) NOT NULL,
   `license_plate` VARCHAR(45) NOT NULL,
-  `geotab_id` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
+  PRIMARY KEY (`geotab_id`),
+  UNIQUE INDEX `geotab_id_UNIQUE` (`geotab_id` ASC) VISIBLE,
   UNIQUE INDEX `license_plate_UNIQUE` (`license_plate` ASC) VISIBLE);
 
-INSERT INTO `moove`.`vehicle` (`name`, `license_plate`, `geotab_id`) VALUES ('Renault Twingo', 'JL-433-K', 'b8');
-INSERT INTO `moove`.`vehicle` (`name`, `license_plate`, `geotab_id`) VALUES ('Volvo XC60', 'KS476X', 'b25');
+
 
 
 CREATE TABLE `moove`.`trips` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `vehicle_id` INT NOT NULL,
-  `start` TIMESTAMP(3) NOT NULL,
-  `stop` TIMESTAMP(3) NOT NULL,
+  `id` VARCHAR(45) NOT NULL,
+  `geotab_id_trip` VARCHAR(45) NOT NULL,
+  `start` VARCHAR(45) NOT NULL,
+  `stop` VARCHAR(45) NOT NULL,
   `distance` VARCHAR(45) NOT NULL,
   `maxspeed` VARCHAR(45) NOT NULL,
-  `driver_id` VARCHAR(25) NOT NULL,
+  `driver_id` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
-  INDEX `id_idx` (`vehicle_id` ASC) VISIBLE,
-  CONSTRAINT `id`
-    FOREIGN KEY (`vehicle_id`)
-    REFERENCES `moove`.`vehicle` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
+  INDEX `geotab_id_idx` (`geotab_id_trip` ASC) VISIBLE,
+  CONSTRAINT `geotab_id_trip`
+    FOREIGN KEY (`geotab_id_trip`)
+    REFERENCES `moove`.`vehicle` (`geotab_id`)
+    ON DELETE RESTRICT
+    ON UPDATE RESTRICT);
 
 
-
-CREATE TABLE `moove`.`driving_exceptions1` (
-  `id` INT NOT NULL AUTO_INCREMENT,
+CREATE TABLE `moove`.`driving_exceptions` (
+  `id` VARCHAR(60) NOT NULL,
   `rule_id` VARCHAR(50) NOT NULL,
-  `trip_id` INT NOT NULL,
-   `active_from` TIMESTAMP(3) NOT NULL,
+  `geotab_id_exptn` VARCHAR(45) NOT NULL,
+  `active_from` TIMESTAMP(3) NOT NULL,
   `active_to` TIMESTAMP(3) NOT NULL,
-  `duration` TIME(7) NOT NULL,
+  `duration` TIME NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
-  INDEX `trip_id_idx` (`trip_id` ASC) VISIBLE,
-  CONSTRAINT `trip_id`
-    FOREIGN KEY (`trip_id`)
-    REFERENCES `moove`.`trips` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
+  INDEX `geotab_id_idx` (`geotab_id_exptn` ASC) VISIBLE,
+  CONSTRAINT `geotab_id_exptn`
+    FOREIGN KEY (`geotab_id_exptn`)
+    REFERENCES `moove`.`vehicle` (`geotab_id`)
+    ON DELETE RESTRICT
+    ON UPDATE RESTRICT);
