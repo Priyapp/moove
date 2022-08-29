@@ -120,7 +120,7 @@ class DbServices():
             if not cursor_obj.get('error'):
                 for each_rule in rule_list:
                     print(each_rule)
-                    sql = "SELECT V.license_plate,T.id, T.start, T.stop,T.distance, E.rule_id, count(T.id) from moove.trips T INNER JOIN moove.vehicle V ON V.geotab_id= T.geotab_id INNER JOIN moove.driving_exceptions E on T.geotab_id=E.geotab_id_exptn where E.rule_id= '"+each_rule+"' and T.start BETWEEN '"+start_date+"' AND '"+end_date+ "' group by T.id"
+                    sql = "select V.license_plate,V.geotab_id,T.id,T.start,T.stop,T.distance,  E.rule_id, count(T.id) from moove.driving_exceptions E INNER JOIN moove.trips T ON  E.geotab_id_exptn=T.geotab_id INNER JOIN moove.vehicle V ON T.geotab_id=V.geotab_id where E.active_from between '"+ start_date+"' AND '"+end_date+ "' and E.rule_id='"+each_rule+"' group by T.id,E.rule_id"
 
                     print(sql)
                     cursor_obj['cursor'].execute(sql)

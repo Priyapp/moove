@@ -1,3 +1,2 @@
 werkzeug - WARNING -  * Debugger is active!
 werkzeug - INFO -  * Debugger PIN: 432-596-704
-werkzeug - INFO - 127.0.0.1 - - [29/Aug/2022 23:34:07] "GET /api/v1/moove/trips HTTP/1.1" 200 -
