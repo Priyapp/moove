@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -13,12 +14,48 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 </head>
+<style>
 
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#FFF; /* change if the mask should have another color then white */
+  z-index:99999; /* makes sure it stays on top */
+}
+#status {
+  width:100px;
+  height:100px;
+  position:absolute;
+  left:50%; /* centers the loading animation horizontally one the screen */
+  top:50%; /* centers the loading animation vertically one the screen */
+  background-image:url("images/preloader.gif");
+  z-index:9999; /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  margin:-50px 0 0 -50px; /* is width and height divided by two */
+}
+</style>
 <body style="background-color: ivory;">
-    <section class="container">
-        <h3 class="pt-4 pb-2">Select Date</h3>
+  <div id="preloader">
+    <div id="status">
+    </div>
+  </div>
+    <section class="container solid">
+        <h3 class="pt-4 pb-2">Report Request Page </h3>
         <form>
             <div class="row form-group">
+
+                 <div class="col-sm-2">
+                    <div class="input-group " id="reciever1">
+                       <input type="text" class="form-control" id="reciever" name="reciever" placeholder="reciever">
+
+
+                    </div>
+                </div>
 
                 <div class="col-sm-3">
                     <div class="input-group date" id="datepicker1">
@@ -48,7 +85,7 @@
             <div class="row form-group">
               <div class="col-sm-3">
 
-        <button type="button" class="btn btn-success btn-sm center" id="submit-button">Small button</button>
+        <button type="button" class="btn btn-success btn-sm center" id="submit-button">Submit</button>
         </div>
               </div>
 
@@ -68,6 +105,8 @@
 
 
         $(document).ready(function(){
+          $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(50).fadeOut(100); // will fade out the white DIV that covers the website.
 
           $('#datepicker1').datepicker();
           $("#datepicker1").val();
@@ -76,22 +115,27 @@
 
 
           $("#submit-button").click(function(){
+            $('body').delay(50).css({'overflow':'visible'});
             var start_date = $( "#datepicker1" ).datepicker("getDate").toISOString();
             console.log(start_date)
             var end_date = $( "#datepicker2" ).datepicker("getDate").toISOString();
             console.log(end_date)
 
+            var reciever = $( "#reciever" ).val()
 
 
-          $.ajax({url: "http://localhost:900/api/v1/moove/report",
+
+          $.ajax({url: "http://localhost:9000/api/v1/moove/report",
           type: 'GET',
           data:{
+            reciever: reciever,
             startDate    : start_date,
-            endDate   : end_date,
+            endDate   : end_date
+
             },
           success: function(result){
             console.log(result)
-            $("#data").html(result.status);
+            $("#data").html(result.email_res.result);
           },
           error: function(result) {
             alert('error');

@@ -1,2 +1,6 @@
 werkzeug - WARNING -  * Debugger is active!
 werkzeug - INFO -  * Debugger PIN: 432-596-704
+werkzeug - INFO - 127.0.0.1 - - [30/Aug/2022 01:01:28] "GET /api/v1/moove/report?reciever=priyapwarrier%40gmail.com&startDate=2022-08-13T18%3A30%3A00.000Z&endDate=2022-08-18T18%3A30%3A00.000Z HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [30/Aug/2022 01:03:33] "GET /api/v1/moove/report?reciever=priyapwarrier%40gmail.com&startDate=2022-08-13T18%3A30%3A00.000Z&endDate=2022-08-18T18%3A30%3A00.000Z HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [30/Aug/2022 01:13:31] "GET /api/v1/moove/report?reciever=priyapwarrier%40gmail.com&startDate=2022-08-13T18%3A30%3A00.000Z&endDate=2022-08-17T18%3A30%3A00.000Z HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [30/Aug/2022 01:16:32] "GET /api/v1/moove/report?reciever=priyapwarrier%40gmail.com&startDate=2022-08-13T18%3A30%3A00.000Z&endDate=2022-08-17T18%3A30%3A00.000Z HTTP/1.1" 200 -
