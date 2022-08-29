@@ -22,21 +22,21 @@ services:
     ports:
       - 8080:8080
 
-#  vehicles-svc:
-#      container-name: vehicle
-#      image: vehicle-image:latest
-#      cpu: 1.5
-#      mem_limit: 2048m
-#      ports:
-#        - "9000:9000"
+  backend-svc:
+      container-name: moove-backend
+      image: moove_backend_v1:v1
+      cpu: 1.5
+      mem_limit: 2048m
+      ports:
+        - "9000:9000"
 
-#  front-end-svc:
-#    container-name: front-end
-#    image: frontend-img_v1:v1
-#    cpu: 1.5
-#    mem_limit: 2048
-#    ports:
-#      - "80:80"
+  frontend-svc:
+    container-name: moove-frontend
+    image: moove_frontend_v1:v1
+    cpu: 1.5
+    mem_limit: 2048
+    ports:
+      - "80:80"
 
 
 volumes:
