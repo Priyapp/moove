@@ -23,21 +23,16 @@ services:
       - 8080:8080
 
   backend-svc:
-      container-name: moove-backend
-      image: moove_backend_v1:v1
-      cpu: 1.5
-      mem_limit: 2048m
-      ports:
-        - "9000:9000"
+    container_name: moove-backend
+    image: moove_backend_v1:v1
+    ports:
+      - "9000:9000"
 
   frontend-svc:
-    container-name: moove-frontend
+    container_name: moove-frontend
     image: moove_frontend_v1:v1
-    cpu: 1.5
-    mem_limit: 2048
     ports:
       - "80:80"
-
 
 volumes:
    mysql-db:
